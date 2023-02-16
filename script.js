@@ -14,3 +14,6 @@ fName="Alisent";
 console.log(fName,lName);
 lName="ahmadi";
 console.log(fName,lName);
+const news="naser";
+console.log("news");
+console.log(news);
