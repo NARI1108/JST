@@ -6,5 +6,5 @@ console.log(2+2);
 
 console.log("Naser");
 console.log(9) ;
-let name;
+let name="naser ahmadi";
 console.log(name);
