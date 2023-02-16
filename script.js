@@ -13,3 +13,4 @@ console.log(fName,lName);
 fName="Alisent";
 console.log(fName,lName);
 lName="ahmadi";
+console.log(fName,lName);
