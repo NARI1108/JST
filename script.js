@@ -34,3 +34,6 @@ console.log(value);
 const lol=11+12;
 //lol=34;
 console.log(lol);
+let string='ali';
+console.log(string);
+console.log(typeof name);
