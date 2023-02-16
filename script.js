@@ -12,3 +12,4 @@ let fName="Liya" , lName="Silver";
 console.log(fName,lName);
 fName="Alisent";
 console.log(fName,lName);
+lName="ahmadi";
