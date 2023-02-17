@@ -64,3 +64,18 @@ users[4]=4487;
 console.log(users);
 console.log(users.length);
 console.log(typeof users);
+function eat(){
+    console.log("Pl eat my BWC");
+}
+eat();
+function math(life){
+    let calcu =2+3;
+    console.log(calcu+life);
+}
+let resualt = math("fuck god");
+console.log(resualt);
+function add(number){
+    return  number + number;
+}
+let nataij = add(3);
+console.log(nataij);
