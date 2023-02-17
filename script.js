@@ -54,3 +54,12 @@ console.log(human);
 console.log(human["age"]);
 console.log(human["colorSkin"]);
 console.log(human["sexuality"]);
+let users =["naser","hill","zahra"]
+console.log(users)
+users[3]="hoool"
+console.log(users)
+users[0]="negin"
+console.log(users);
+users[4]=4487;
+console.log(users);
+console.log(users.length);
