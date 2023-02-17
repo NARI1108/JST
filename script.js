@@ -63,3 +63,4 @@ console.log(users);
 users[4]=4487;
 console.log(users);
 console.log(users.length);
+console.log(typeof users);
