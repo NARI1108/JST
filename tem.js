@@ -1,0 +1,1 @@
+const vori =33;
