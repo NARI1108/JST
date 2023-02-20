@@ -79,3 +79,47 @@ function add(number){
 }
 let nataij = add(3);
 console.log(nataij);
+let x= 10;
+let y=11;
+console.log(x+y);
+console.log(x*y);
+console.log(x/y);
+console.log(x-y);
+console.log(x%y);
+console.log(x**y);
+console.log(x);
+console.log(x++);
+console.log(x);
+console.log(++x);
+console.log(x);
+let o=10;
+let ip=13;
+o=o+ip;
+console.log(o);
+//-= += *= /= %=
+o+=ip;
+o*=ip;
+o/=ip;
+o-=ip;
+o%=ip;
+console.log(o);
+let n=1;
+console.log(n!=="1");
+let athenticated = true;
+let buttontext = athenticated!==true? "adshbord":"login";
+console.log(buttontext);
+let productPrice=1000;
+let productCout=2;
+let cridet=1200;
+let buy = productCout>=3 || productPrice<cridet;
+console.log(!buy); 
+console.log(false||true);
+console.log(false||1);
+console.log(false||"Naser");
+console.log(false||0);
+console.log(1 & 3);
+//00000001
+//00000011
+//00000011
+let r =2+3*10;
+console.log(r);
