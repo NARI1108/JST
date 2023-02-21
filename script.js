@@ -135,3 +135,22 @@ else if(hour>=12 && hour <=15)
 }else if(hour=>18 && hour<19){
      console.log("good Evening");
 }
+//////////////////////////////
+let myName="Neon";
+switch(myName){
+ 
+    case "Naser":
+        console.log("hey girls");break;
+    case "Neon":
+        console.log("hello jesson");break;
+    default:
+        console.log("it is nothing here boy");    
+
+}
+let admird="donuat";
+switch(admird){
+     case "donuat":
+        console.log("hi");break;
+     default:
+        console.log("goaway");
+}
