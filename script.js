@@ -123,3 +123,15 @@ console.log(1 & 3);
 //00000011
 let r =2+3*10;
 console.log(r);
+let hour=19.30;
+if(hour>=6 && hour<12){
+      console.log("good morning");
+}
+else if(hour>=12 && hour <=15)
+{
+      console.log("good noon");
+}else if(hour>12 && hour<=18){
+    console.log("good Afternoon");
+}else if(hour=>18 && hour<19){
+     console.log("good Evening");
+}
