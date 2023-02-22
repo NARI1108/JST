@@ -154,3 +154,12 @@ switch(admird){
      default:
         console.log("goaway");
 }
+for(let i=0;i<=50;i++){
+  if(i%2 === 1){
+        console.log(i);
+  } 
+}
+console.log("out");
+for(let j=5;j>=1;j--){
+    console.log(j);
+}
