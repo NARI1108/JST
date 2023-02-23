@@ -5,7 +5,7 @@ console.log(2+2);
 
 
 console.log("Naser");
-console.log(9) ;
+console.log(9) ;   
 let name="naser ahmadi";
 console.log(name);
 let fName="Liya" , lName="Silver";
@@ -147,19 +147,127 @@ switch(myName){
         console.log("it is nothing here boy");    
 
 }
-let admird="donuat";
-switch(admird){
-     case "donuat":
-        console.log("hi");break;
-     default:
-        console.log("goaway");
+for(let i=0;i<=5;i++){
+console.log("let me");
 }
-for(let i=0;i<=50;i++){
-  if(i%2 === 1){
-        console.log(i);
-  } 
+let i = 0;
+while(i<=5){
+   console.log("let me love u");
+   i++;
 }
-console.log("out");
-for(let j=5;j>=1;j--){
-    console.log(j);
+let j=0;
+do{
+    console.log("let me fuck u ");
+    j++;
+}while(j<=5);
+const lady = {name:"loren",age:18};
+for(let key in lady){
+    console.log(key);
+    console.log(lady[key]);
 }
+const colors =["naser","loren"];
+for(let key in colors){
+    console.log(key);
+    console.log(colors[key]);
+}
+for(let key of colors){
+    console.log(key);
+}
+console.log("here");
+let k=0;
+while(k<=10){
+    if(k == 5){
+        k++;
+      continue;
+    }
+    console.log(k);
+    k++;
+}
+console.log("workout");
+let circle ={
+    radius:1,
+    location:{
+     t:1,
+     w:1
+    },
+    isVisible:true,
+    draw:function(){console.log("draw")}
+};
+circle.draw();
+console.log("hear");
+let circle1 ={
+     radius:1,
+     location:{
+     t:1,
+     w:2,
+     },
+     isVisible:false,
+     draw:function(){console.log("four")}
+};
+circle.draw();
+let radius =1;
+let q=1;
+let a=1;
+function draw(){}
+let circle12={
+    radius:1,
+    location:{
+     q:1,
+     a:1
+    },
+    isVisible:true,
+    draw:function(){console.log("naser")}
+};
+circle12.draw();
+let ra=12;
+let cv=222;
+let cb=222;
+function root(){};
+let fofof={
+    ra:12,
+    loaction:{
+        cv:222,
+        cb:222
+    },
+    isVisible:false,
+    root:function(){console.log("voot")}
+};
+fofof.root();
+console.log("below");
+let radius1=11;
+let vertical=12;
+let horizontal=12;
+function get(){};
+let objectCircle={
+    radius1:11,
+    location:{
+        vertical:12,
+        horizontal:12
+    },
+    isVisible:true,
+    get:function(){console.log("hot")},
+};
+  objectCircle.get();
+let radiusgo=12;
+let verticalgo=1;
+let horizontalgo=1;
+let you={
+    radiusgo:12,
+    location:{
+        verticalgo:1,
+        horizontal:1
+    },
+    isVisible:true,
+    got:function(){console.log("go away")}
+};
+you.got();
+let obt={
+    rds:1,
+    location:{
+        of:1,
+        am:1
+    },
+    isVisible:true,
+    View:function(){console.log("Damn")}
+};
+  obt.View();
