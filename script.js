@@ -273,4 +273,9 @@ let obt={
   obt.View();
   //////////////////////////////////
  console.log("STAET FROM HERE");
- 
+ function createCircle(radius){
+        return{ radius,
+         foun(){console.log("draw")}}
+ };
+ let circle34 =createCircle(radius);
+ console.log(circle34);
