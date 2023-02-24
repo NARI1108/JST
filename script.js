@@ -271,3 +271,6 @@ let obt={
     View:function(){console.log("Damn")}
 };
   obt.View();
+  //////////////////////////////////
+ console.log("STAET FROM HERE");
+ 
