@@ -277,5 +277,5 @@ let obt={
         return{ radius,
          foun(){console.log("draw")}}
  };
- let circle34 =createCircle(radius);
+ let circle34 =createCircle(565656);
  console.log(circle34);
