@@ -281,3 +281,14 @@ let obt={
  console.log(circle34);
  let circle5353 = createCircle(64646);
  console.log(circle5353);
+ /////////////////////////////////////
+console.log("I am starting from here");
+const rectangle={
+    radius:3.14
+};
+rectangle.color="red";
+rectangle.draw=function(){};
+delete rectangle.radius;
+delete rectangle.color;
+delete rectangle.draw;
+console.log(rectangle);
