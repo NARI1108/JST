@@ -292,3 +292,21 @@ delete rectangle.radius;
 delete rectangle.color;
 delete rectangle.draw;
 console.log(rectangle);
+////////////////////////////////////
+console.log("second");
+function green(color){
+    return{
+        color,
+        draw(){console.log("painter")}
+    }
+}
+    let peper = green(3);
+    console.log(peper);
+    function wood(food){
+        this.food=food,
+        this.draw=function(){
+            console.log("eat");
+        }
+    }
+    const another  = new wood(4321);
+    console.log(another);
