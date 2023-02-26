@@ -310,3 +310,25 @@ function green(color){
     }
     const another  = new wood(4321);
     console.log(another);
+    ////////////////////////////////
+     console.log("starting to codeing here");
+     function ceiling(color){
+       return{ color:color,
+        deital:{
+            lamp:1,
+            top(){console.log("home has a ceiling")}
+        }}
+     }
+     const home =ceiling(2);
+     console.log(home);
+     ////////////////////////////////
+     function diamond(diameter){
+           this.diameter=diameter;
+           this.Draw=function(){
+               console.log("drawing");
+           }
+     }
+     const raw  = new diamond(3);
+     diamond.apply({},[1,2]);
+     console.log(diamond);
+     diamond.call({},1233445);
