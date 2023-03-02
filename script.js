@@ -1,25 +1,12 @@
-//value types(primitives)
-//String
-//number
-//boolean
-//symble
-
-
-//reference type
-//arrays
-//functions
-//objects
-///////////////////////////////////////////
-let number =10;
-function increase(number){
-   number++;
+const circle={
+    radius:1,
+    draw(){
+        console.log("draw");
+    }
 }
-increase(number);
-console.log(number);
-/////////////////////////////////////////
-let number1={value:12};
-function incearse1(number1){
-    number1.value++;
+
+if('radius' in circle){
+    console.log("yea");
+    console.log('radius' in circle);
 }
-incearse1(number1);
-console.log(number1);
+
