@@ -1,6 +1,3 @@
-const another =`Neon .
-is coding cool.`;
-console.log(another);
-let msg="Ali";
-let txt=`hello ${msg} .thank u.`
-console.log(txt);
+const now = new Date();
+const date1 = new Date("May 11 2023 09:00");
+const date2 = new Date(2023,4,11,9,0);
