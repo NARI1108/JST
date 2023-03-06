@@ -1,3 +1,14 @@
-const now = new Date();
-const date1 = new Date("May 11 2023 09:00");
-const date2 = new Date(2023,4,11,9,0);
+const number =[2,3,4];
+console.log(number);
+number.push(1);
+console.log(number);
+number.push=333;
+console.log(number);
+number.unshift(1111);
+console.log(number);
+number.unshift=22222;
+console.log(number);
+number.splice(1,0,"Naser");
+console.log(number);
+number.splice(1,1,"reyhaneh");
+console.log(number);
