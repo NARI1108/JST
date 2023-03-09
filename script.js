@@ -12,4 +12,8 @@ console.log(message.trimStart());
 const line = 'naser.\n is near you';
 console.log(line);
 console.log(line.includes("neser"));
-
+const Couse=[
+    { id:1 , name:'a'}
+];
+const result = Couse.find(couse=>couse.name === 'a')
+console.log(result);
