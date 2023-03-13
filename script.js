@@ -1,7 +1,8 @@
-
-const first = [{id:1}];
-const second = [5,6,7,8];
-const combined = first.concat(second);
-first[0].id=10
+const first =[1,2,3];
+const second =[4,5,6];
+const combined = ['Naser',...first,"Naser ahmadi",...second];
 console.log(combined);
-console.log(first);
+//const slice = combined.slice();
+//console.log(slice);
+const repeat=[...combined];
+console.log(repeat);
