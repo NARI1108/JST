@@ -1,8 +1,7 @@
-const first =[1,2,3];
-const second =[4,5,6];
-const combined = ['Naser',...first,"Naser ahmadi",...second];
-console.log(combined);
-//const slice = combined.slice();
-//console.log(slice);
-const repeat=[...combined];
-console.log(repeat);
+const numbers=[1,2,3];
+for(let number of numbers)
+console.log(number);
+//////////////////////////////
+const strings =["naser","zahra"];
+strings.forEach(string=>console.log(string+"  Ahmadi"));
+strings.forEach((string,index)=>console.log(string,index));
