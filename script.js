@@ -1,11 +1,18 @@
-const numbers =[1,2,3];
-const joined = numbers.join(" ");
-console.log(joined);
-////////////////////////////////
-const massage =" naser is a good boy now";
-const parts = massage.split(" ");
-console.log(parts);
+const numbers=[2,1,3];
+const sorted = numbers.sort();
+console.log(sorted);
+sorted.reverse();
+console.log(sorted);
 ///////////////////////////////
-const combined  = parts.join("-");
-console.log(combined);
-///////////////////////////////
+const members=[
+    {id:1 , name:"html"},
+    {id:2 , name:"css"}
+];
+members.sort(function(a,b){
+    let nameA=a.name.toLowerCase;
+    let nameb=b.name.toLowerCase;
+    if(nameA>nameB)return 1;
+    if(nameB>nameA)return -1;
+    return 0;
+});
+console.log(members);
